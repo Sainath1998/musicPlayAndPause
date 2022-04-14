@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&family=Ubuntu:wght@300&display=swap');
+
+body{
+    background-color: #4700D8;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+*{
+    margin: 0;
+    font: 0;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    background-color: black;
+    height: 65px;
+    font-weight: bolder;
+}
+.brand {
+    align-items: center;
+    display: flex;
+}
+nav ul li{
+    padding: 18px 12px;
+    text-align: center;
+}
+.container{
+    background-image: url("images/back.jpg");
+    size: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+    height: 800px;
+}
+#titleHeader{
+    color: black;
+    font-family: 'Square Peg', cursive;
+    font-size: 100px;
+}
+.bottom{
+    position: absolute;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+#myProgressBar{
+width: 800px;
+}
+.icons{
+    margin-top: 14px;
+    cursor: pointer;
+}
+.songItem{
+    color: white;
+    position: absolute;
+    left: 100px;
+    width: auto;
+}
+.songItem i{
+    padding-left: 2%;
+}
+.songItem img{
+    padding-right: 2%;
+    width: 100px;
+}
